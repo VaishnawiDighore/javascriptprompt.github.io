@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>
+ prompt
+</title>
+<script>
+function fun() {
+var a = prompt("Enter some text", "The Geekster Team");
+if (a != null) {
+document.getElementById("para").innerHTML = "Welcome to " + a;
+}
+}
+</script>
+</head>
+
+<body style = "text-align: center; background-color: yellow ;">
+<h1 style = "color: blue;">
+Hello Geekster
+</h1>
+<h2>
+The JavaScript prompt
+</h2>
+
+<button onclick = "fun()">
+Click me
+</button>
+<p id = "para"></p>
+
+
+</body>
+
+</html>
